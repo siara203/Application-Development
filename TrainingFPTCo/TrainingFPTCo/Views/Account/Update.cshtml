@@ -1,0 +1,199 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TrainingFPTCo.Models.AccountDetail;
+@{
+    ViewData["title"] = "Update Account";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+
+
+}
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Edit Account</h5>
+                        <div class="text-end">
+                            <a href="@Url.Action("Index", "Account")" class="mb-0 btn btn-secondary">Back to List</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form enctype="multipart/form-data" asp-action="Update">
+                            <div class="row">
+                                <div class="col-xl-9 col-lg-8">
+                                    <div class="row">
+										<div class="col-xl-6 col-sm-6">
+											<div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="ExtraCode">ExtraCode<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="ExtraCode" placeholder="ExtraCode ...">
+                                                <span asp-validation-for="ExtraCode" class="text-danger"></span>
+											</div>
+										</div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary">Role<span class="required">*</span></label>
+                                                <div class="dropdown">
+                                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Select Role
+                                                    </button>
+                                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                        @foreach (var role in ViewBag.Roles)
+                                                        {
+                                                            <a class="dropdown-item" href="#" data-value="@role.Value">@role.Text</a>
+                                                        }
+                                                    </div>
+                                                    <input type="hidden" id="RoleId" name="RoleId" asp-for="RoleId" />
+                                                </div>
+                                                <span asp-validation-for="RoleId" class="text-danger"></span>
+                                                <div class="invalid-feedback">
+                                                    Please select a role.
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="FullName">FullName<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="FullName" placeholder="FullName ...">
+                                                <span asp-validation-for="FullName" class="text-danger"></span>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Username">User Name<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="Username" placeholder="User Name ...">
+                                                <span asp-validation-for="Username" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Password">Password<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="Password" placeholder="Password Account...">
+                                                <span asp-validation-for="Password" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Email">Email<span class="required">*</span></label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1" asp-for="Email" placeholder="Email Account...">
+                                                <span asp-validation-for="Email" class="text-danger"></span>
+                                            </div>
+                                        </div>
+										<div class="col-xl-6 col-sm-6">
+											<div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Phone">Phone<span class="required">*</span></label>
+                                                <input type="number" class="form-control" id="exampleFormControlInput1" asp-for="Phone" placeholder="Phone ...">
+                                                <span asp-validation-for="Phone" class="text-danger"></span>
+											</div>
+										</div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" asp-for="Address" class="form-label text-primary">
+                                                    Address
+                                                    <span class="required">*</span>
+                                                </label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="Address"></textarea>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <br />
+                                <hr>
+								<br />
+
+                             
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="FirstName">FirstName<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="FirstName" placeholder="FirstName ...">
+                                                <span asp-validation-for="FirstName" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="LastName">LastName<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="LastName" placeholder="LastName ...">
+                                                <span asp-validation-for="LastName" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-3 col-sm-3">
+                                            <div class="mb-3">
+                                                <label asp-for="Birthday" class="form-label text-primary">Birthday<span class="required">*</span></label>
+                                                <div class="d-flex">
+                                                    <input asp-for="Birthday" type="date" class="form-control">
+                                                    <span asp-validation-for="Birthday" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+										<div class="col-xl-3 col-sm-3">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Gender">Gender<span class="required">*</span></label>
+                                                <div class="dropdown bootstrap-select form-select wide form-control">
+                                                    <select class="form-select wide form-control" asp-for="Gender" id="validationCustom05" required="" tabindex="null">
+                                                        <option selected="" disabled="" value="">Please select</option>
+                                                        <option value="Male"> Male</option>
+                                                        <option value="Female"> Female</option>
+                                                    </select>
+                                                    <span asp-validation-for="Gender"></span>
+                                                    <div class="invalid-feedback">
+                                                        Please select a one.
+                                                    </div>
+                                                </div>
+                                            </div>
+										</div>
+									<div class="col-xl-6 col-sm-6">
+										<div class="mb-3">
+											<label asp-for="Education" class="form-label text-primary">Education<span class="required">*</span></label>
+											<div class="d-flex">
+												<input asp-for="Education" type="text" class="form-control" placeholder="Education ...">
+												<span asp-validation-for="Education" class="text-danger"></span>
+											</div>
+										</div>
+									</div>
+                                    <br />
+                                    <hr>
+									<br />
+
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                            <label asp-for="ToeicScore" class="form-label text-primary">ToeicScore<span class="required">*</span></label>
+                                                <div class="d-flex">
+                                                <input asp-for="ToeicScore" type="number" class="form-control" placeholder="ToeicScore ...">
+                                                <span asp-validation-for="ToeicScore" class="text-danger"></span>
+                                                </div>
+                                            </div>
+                                        </div>
+									<div class="col-xl-6 col-sm-6">
+										<div class="mb-3">
+                                            <label asp-for="ProgrammingLanguage" class="form-label text-primary">Programming Language<span class="required">*</span></label>
+											<div class="d-flex">
+                                                <input asp-for="ProgrammingLanguage" type="text" class="form-control" placeholder="Programming Language ...">
+                                                <span asp-validation-for="ProgrammingLanguage" class="text-danger"></span>
+											</div>
+										</div>
+									</div>
+                                    <div class="col-xl-6 col-sm-6">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" asp-for="Skill" class="form-label text-primary">
+                                                Skill
+                                                <span class="required">*</span>
+                                            </label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="Skill"></textarea>
+                                        </div>
+                                    </div>
+								</div>
+                                <div class="">
+                                    <button type="submit" class="my-3 btn btn-primary"> Edit </button>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

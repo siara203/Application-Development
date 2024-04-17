@@ -1,0 +1,167 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TrainingFPTCo.Models.TopicDetail;
+@{
+    ViewData["title"] = "Edit Topic";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Edit Topic</h5>
+                    </div>
+                    <div class="card-body">
+                        <form enctype="multipart/form-data" method="post" asp-action="Update">
+                            <input type="hidden" asp-for="Id" />
+                            <div class="row">
+                                <div class="col-xl-9 col-lg-8">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-sm-12">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Name">Topic Name<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="Name" placeholder="Name Course...">
+                                                <span asp-validation-for="Name" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="CourseId">Course<span class="required">*</span></label>
+                                                <div class="dropdown bootstrap-select form-select wide form-control">
+                                                    <select class="form-select wide form-control" asp-for="CourseId" id="validationCustom05" required="" asp-items="@(new SelectList(ViewBag.Courses, "Value", "Text"))" tabindex="null">
+                                                    </select>
+                                                    <span asp-validation-for="CourseId" class="text-danger"></span>
+                                                    <div class="invalid-feedback">
+                                                        Please select a one.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Description" class="form-label text-primary">Description<span class="required">*</span></label>
+                                                <textarea asp-for="Description" class="form-control"></textarea>
+                                                <span asp-validation-for="Description" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Status">Status<span class="required">*</span></label>
+                                                <div class="dropdown bootstrap-select form-select wide form-control">
+                                                    <select class="form-select wide form-control" asp-for="Status" id="validationCustom05" required="" tabindex="null">
+                                                        <option selected="" disabled="" value="">Please select</option>
+                                                        <option value="Active"> Active</option>
+                                                        <option value="Deactive"> Deactive</option>
+                                                    </select>
+                                                    <span asp-validation-for="Status"></span>
+                                                    <div class="invalid-feedback">
+                                                        Please select a one.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-6">
+                                                <label asp-for="Documents" class="form-label text-primary">Documents<span class="required">*</span></label>
+                                                <input type="file" asp-for="Documents" class="form-control" />
+                                                (PDF,MP3,MP4 file)
+                                                <span asp-validation-for="Documents"></span>
+                                                <br />
+                                                @if (!string.IsNullOrEmpty(Model.NameDocuments))
+                                                {
+                                                    @if (Model.NameDocuments.EndsWith(".pdf"))
+                                                    {
+                                                        <iframe src="/uploads/documents/@Model.NameDocuments" width="100%" height="500"></iframe>
+                                                    }
+                                                    else if (Model.NameDocuments.EndsWith(".mp3"))
+                                                    {
+                                                        <audio controls>
+                                                            <source src="/uploads/documents/@Model.NameDocuments" type="audio/mpeg">
+                                                            Your browser does not support the audio element.
+                                                        </audio>
+                                                    }
+                                                    else if (Model.NameDocuments.EndsWith(".mp4"))
+                                                    {
+                                                        <video width="50%" controls>
+                                                            <source src="/uploads/documents/@Model.NameDocuments" type="video/mp4">
+                                                            Your browser does not support the video tag.
+                                                        </video>
+                                                    }
+                                                }
+                                            </div>
+
+                                            <div class="form-group mb-6">
+                                                <label asp-for="AttachFile" class="form-label text-primary">Attach File<span class="required">*</span></label>
+                                                <input type="file" asp-for="AttachFile" class="form-control" />
+                                                (MP3,MP4 file)
+                                                <span asp-validation-for="AttachFile"></span>
+                                                <br />
+                                                @if (!string.IsNullOrEmpty(Model.NameAttachFile))
+                                                {
+                                                    <video width="50%" controls>
+                                                        <source src="/uploads/videos/@Model.NameAttachFile" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                                }
+                                            </div>
+
+                                            <div class="form-group mb-6">
+												<label asp-for="PosterTopic" class="form-label text-primary">Poster Topic<span class="required">*</span></label>
+                                                (PDF file)
+                                                <input type="file" asp-for="PosterTopic" class="form-control" />
+                                                
+                                                <span asp-validation-for="PosterTopic"></span>
+
+                                                @if (!string.IsNullOrEmpty(Model.NamePosterTopic))
+                                                {
+                                                    <iframe class="img-fluid img-thumbnail" alt="@Model.NamePosterTopic" src="/uploads/images/@Model.NamePosterTopic"></iframe>
+                                                    <br />
+                                                    <a href="/uploads/images/@Model.NamePosterTopic" class="btn btn-sm btn-primary" target="_blank">View Poster Topic</a>
+                                                }
+                                            </div>
+
+
+                                            <div class="form-group mb-6">
+                                                <label asp-for="TypeDocument"></label>
+                                                <input type="text" class="form-control" asp-for="TypeDocument"  />
+                                                <span asp-validation-for="TypeDocument" class="text-danger"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button type="submit" class="my-3 btn btn-primary"> Edit </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <script>
+                            // Function to update TypeDocument based on selected file
+                            function updateTypeDocument() {
+                                var fileInput = document.getElementById('Documents');
+                                var typeDocumentInput = document.getElementById('TypeDocument');
+
+                                if (fileInput.files.length > 0) {
+                                    // Get the file extension from the selected file
+                                    var fileName = fileInput.files[0].name;
+                                    var fileType = fileName.substring(fileName.lastIndexOf('.') + 1).toLowerCase();
+                                    typeDocumentInput.value = fileType; // Update TypeDocument based on file extension
+                                } else {
+                                    // If no file is selected, clear the TypeDocument value
+                                    typeDocumentInput.value = '';
+                                }
+                            }
+
+                            // Call updateTypeDocument function when there is a change in the Documents field
+                            document.getElementById('Documents').addEventListener('change', updateTypeDocument);
+
+                            // Call updateTypeDocument function when the page is loaded
+                            window.addEventListener('load', updateTypeDocument);
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

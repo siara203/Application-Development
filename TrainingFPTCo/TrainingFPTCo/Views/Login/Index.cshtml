@@ -1,0 +1,61 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TrainingFPTCo.Models.LoginViewModel
+@{
+	ViewData["title"] = "Login";
+	Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+<div class="authincation d-flex flex-column flex-lg-row flex-column-fluid">
+    <div class="login-aside text-center  d-flex flex-column flex-row-auto">
+        <div class="d-flex flex-column-auto flex-column pt-lg-40 pt-15">
+            <div class="text-center mb-2 logo">
+                <img style="width: 38%; height: auto" src="~/login/images/fpt.png" alt="" class="small-logo">
+            </div>
+            <h3 class="mb-2 text-white">Welcome back!</h3>
+        </div>
+        <div class="aside-image position-relative">
+            <img class="img1 move-1" src="~/login/images/background/category.png" alt="">
+            <img class="img2 move-2" src="~/login/images/background/course.png" alt="">
+            <img class="img3 move-3" src="~/login/images/background/topic.png" alt="">
+        </div>
+    </div>
+    <div class="container flex-row-fluid d-flex flex-column justify-content-center position-relative overflow-hidden p-7 mx-auto">
+        <div class="d-flex justify-content-center h-100 align-items-center">
+            <div class="authincation-content style-2">
+                <div class="row no-gutters">
+                    <div class="col-xl-12 tab-content">
+                        <div id="sign-up" class="auth-form tab-pane fade show active  form-validation">
+                            @using (Html.BeginForm("Index", "Login", FormMethod.Post))
+                            {
+                                <div class="text-center mb-4">
+                                    <h3 class="text-center mb-2 text-black">Sign In</h3>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="username" class="form-label mb-2 fs-13 label-color font-w500">User Name</label>
+                                    @Html.TextBoxFor(m => m.UserName, new { @class = "form-control", @id = "username", @placeholder = "User Name" })
+                                </div>
+                                <div class="mb-3">
+                                    <label for="password" class="form-label mb-2 fs-13 label-color font-w500">Password</label>
+                                    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", @id = "password", @type = "password", @placeholder = "Password" })
+                                </div>
+                                <hr />
+                                @if (ViewData["MessageLogin"] != null)
+                                {
+                                    <p style="background-color:pink" class="text-danger text-center">
+                                        @ViewData["MessageLogin"]
+                                    </p>
+                                }
+                                <a href="javascript:void(0);" class="text-primary float-end mb-4">Forgot Password ?</a>
+                                <button class="btn btn-block btn-primary">Sign In</button>
+                            }
+                            <div class="new-account mt-3 text-center">
+                                <p class="font-w500">Already have an account? <a class="text-primary" href="#sign-in" data-toggle="tab">Sign in</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

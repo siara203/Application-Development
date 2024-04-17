@@ -1,0 +1,92 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TrainingFPTCo.Models.CategoryDetail;
+@{
+    ViewData["title"] = "Update Category";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+
+
+}
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Edit Category</h5>
+                        <div class="text-end">
+                            <a href="@Url.Action("Index", "Category")" class="mb-0 btn btn-secondary">Back to List</a>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <form enctype="multipart/form-data" asp-action="Update">
+                            <div class="row">
+                                <div class="col-xl-9 col-lg-8">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-sm-12">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Name">Name<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="Name" placeholder="Name Course...">
+                                                <span asp-validation-for="Name" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Status">Status<span class="required">*</span></label>
+                                                <div class="dropdown bootstrap-select form-select wide form-control">
+                                                    <select class="form-select wide form-control" asp-for="Status" id="validationCustom05" required="" tabindex="null">
+                                                        <option selected="" disabled="" value="">Please select</option>
+                                                        <option value="Active"> Active</option>
+                                                        <option value="Deactive"> Deactive</option>
+                                                    </select>
+                                                    <span asp-validation-for="Status"></span>
+                                                    <div class="invalid-feedback">
+                                                        Please select a one.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlTextarea1" asp-for="Description" class="form-label text-primary">
+                                                    Description
+                                                    <span class="required">*</span>
+                                                </label>
+                                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" asp-for="Description"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <div class="form-group mb-3">
+                                                    <label class="form-label text-primary" asp-for="PosterImage">Image<span class="required">*</span></label>
+                                                    <input type="file" asp-for="PosterImage" class="form-control" onchange="previewImage(event)" />
+                                                    <span asp-validation-for="PosterImage"></span>
+                                                    <img id="imagePreview" class="mt-2" src="#" alt="Preview Image" style="display: none; max-width: 300px; max-height: auto;" />
+                                                    <p>Image Old</p>
+                                                    <img class="img-fluid" max-width: 150px; max-height: auto; src="/uploads/images/@Model.PosterNameImage" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button type="submit" class="my-3 btn btn-primary"> Edit </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function previewImage(event) {
+        var reader = new FileReader();
+        reader.onload = function () {
+            var imagePreview = document.getElementById('imagePreview');
+            imagePreview.src = reader.result;
+            imagePreview.style.display = 'block';
+        };
+        reader.readAsDataURL(event.target.files[0]);
+    }
+</script>

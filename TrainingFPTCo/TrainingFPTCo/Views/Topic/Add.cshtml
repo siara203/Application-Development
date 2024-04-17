@@ -1,0 +1,126 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TrainingFPTCo.Models.TopicDetail;
+@{
+    ViewData["title"] = "Topics";
+    Layout = "~/Views/Shared/_LayoutMain.cshtml";
+}
+<div class="content-body">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xl-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="mb-0">Add Topic</h5>
+                    </div>
+                    <div class="card-body">
+                        <form enctype="multipart/form-data" method="post" asp-action="Add">
+                            <div class="row">
+                                <div class="col-xl-9 col-lg-8">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-sm-12">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Name">Topic Name<span class="required">*</span></label>
+                                                <input type="text" class="form-control" id="exampleFormControlInput1" asp-for="Name" placeholder="Name Course...">
+                                                <span asp-validation-for="Name" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="CourseId">Course<span class="required">*</span></label>
+                                                <div class="dropdown bootstrap-select form-select wide form-control">
+                                                    <select class="form-select wide form-control" asp-for="CourseId" id="validationCustom05" required="" asp-items="@(new SelectList(ViewBag.Courses, "Value", "Text"))" tabindex="null">
+                                                    </select>
+                                                    <span asp-validation-for="CourseId" class="text-danger"></span>
+                                                    <div class="invalid-feedback">
+                                                        Please select a one.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label asp-for="Description" class="form-label text-primary">Description</label>
+                                                <textarea asp-for="Description" class="form-control"></textarea>
+                                                <span asp-validation-for="Description" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6 col-sm-6">
+                                            <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label text-primary" asp-for="Status">Status<span class="required">*</span></label>
+                                                <div class="dropdown bootstrap-select form-select wide form-control">
+                                                    <select class="form-select wide form-control" asp-for="Status" id="validationCustom05" required="" tabindex="null">
+                                                        <option selected="" disabled="" value="">Please select</option>
+                                                        <option value="Active"> Active</option>
+                                                        <option value="Deactive"> Deactive</option>
+                                                    </select>
+                                                    <span asp-validation-for="Status"></span>
+                                                    <div class="invalid-feedback">
+                                                        Please select a one.
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group mb-3">
+                                                <label class="form-label text-primary" asp-for="Documents">Documents<span class="required">*</span></label>
+                                                <input type="file" asp-for="Documents" class="form-control"/>
+                                                (PDF,MP3,MP4 file)
+                                                <span asp-validation-for="Documents"></span>
+                                            </div>
+
+                                            <div class="form-group mb-3">
+                                                <label class="form-label text-primary" asp-for="AttachFile">AttachFile<span class="required">*</span></label>
+                                                <input type="file" asp-for="AttachFile" class="form-control"/>
+                                                (MP3,MP4 file)
+                                                <span asp-validation-for="AttachFile"></span>
+                                                
+                                            </div>
+
+                                            <div class="form-group mb-3">
+                                                <label class="form-label text-primary" asp-for="PosterTopic">Poster Topic<span class="required">*</span></label>
+                                                <input type="file" asp-for="PosterTopic" class="form-control"/>
+                                                (PDF file)
+                                                <span asp-validation-for="PosterTopic"></span>
+                                            </div>
+
+                                            <div class="form-group mb-3">
+                                                <label asp-for="TypeDocument" class="control-label">Type Document</label>
+                                                <input  asp-for="TypeDocument" class="form-control" readonly />
+                                                <span asp-validation-for="TypeDocument" class="text-danger"></span>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="">
+                                    <button type="submit" class="my-3 btn btn-primary"> Save </button>
+                                </div>
+                            </div>
+                        </form>
+
+                        <script>
+                            function updateTypeDocument() {
+                                var fileInput = document.getElementById('Documents');
+                                var typeDocumentInput = document.getElementById('TypeDocument');
+
+                                if (fileInput.files.length > 0) {
+                                    var fileType = fileInput.files[0].name.split('.').pop();
+                                    typeDocumentInput.value = fileType.toLowerCase(); // Convert to lowercase
+                                } else {
+                                    typeDocumentInput.value = '';
+                                }
+                            }
+
+                            // Call updateTypeDocument function when there is a change in the Documents field
+                            document.getElementById('Documents').addEventListener('change', updateTypeDocument);
+
+                            // Call updateTypeDocument function when the page is loaded
+                            window.addEventListener('load', updateTypeDocument);
+                        </script>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

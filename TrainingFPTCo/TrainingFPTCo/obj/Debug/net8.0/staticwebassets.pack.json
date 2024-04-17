@@ -1,0 +1,841 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\TrainingFPTCo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\TrainingFPTCo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\css\\style.css",
+      "PackagePath": "staticwebassets\\dashboard\\css\\style.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\avasta\\css\\style.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\avasta\\css\\style.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\bootstrap-icons\\font\\bootstrap-icons.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\bootstrap-icons\\font\\bootstrap-icons.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-iconse36a.woff",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-iconse36a.woff"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-iconse36a.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\bootstrap-icons\\font\\fonts\\bootstrap-iconse36a.woff2"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon-1\\font\\flaticon-1.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon-1\\font\\flaticon-1.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.eot",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.eot"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.svg",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.svg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.ttf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.woff",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.woff"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.woff2",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon-1\\font\\flaticon-1882d.woff2"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon\\Flaticon.eot"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon\\Flaticon.svg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon\\Flaticon.ttf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon\\Flaticon.woff"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon\\Flaticond41d.eot"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\flaticon\\flaticon.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\flaticon\\flaticon.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\fontawesome\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\fontawesome\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\icomoon\\fonts\\icomoon.eot",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\icomoon\\fonts\\icomoon.eot"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\icomoon\\fonts\\icomoon.svg",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\icomoon\\fonts\\icomoon.svg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\icomoon\\fonts\\icomoon.svg.readme",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\icomoon\\fonts\\icomoon.svg.readme"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\icomoon\\fonts\\icomoon.ttf",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\icomoon\\fonts\\icomoon.ttf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\icomoon\\fonts\\icomoon.woff",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\icomoon\\fonts\\icomoon.woff"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\icomoon\\icomoon.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\icomoon\\icomoon.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\line-awesome\\css\\line-awesome.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\line-awesome\\css\\line-awesome.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\material-design-iconic-font\\css\\materialdesignicons.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\simple-line-icons\\css\\simple-line-icons.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\simple-line-icons\\css\\simple-line-icons.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\icons\\themify-icons\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\dashboard\\icons\\themify-icons\\css\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\avatar\\1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\avatar\\1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\avatar\\2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\avatar\\2.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\avatar\\3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\avatar\\3.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\avatar\\4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\avatar\\4.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\avatar\\5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\avatar\\5.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\body\\12.html",
+      "PackagePath": "staticwebassets\\dashboard\\images\\body\\12.html"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\food\\pic1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\food\\pic1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\food\\pic2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\food\\pic2.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\food\\pic3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\food\\pic3.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\like.png",
+      "PackagePath": "staticwebassets\\dashboard\\images\\like.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\no-img-avatar.png",
+      "PackagePath": "staticwebassets\\dashboard\\images\\no-img-avatar.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\pattern\\pattern5.png",
+      "PackagePath": "staticwebassets\\dashboard\\images\\pattern\\pattern5.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\pic1.svg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\pic1.svg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\12.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\12.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\cover.html",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\cover.html"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\small\\pic1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\small\\pic1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\small\\pic2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\small\\pic2.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\small\\pic3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\small\\pic3.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\small\\pic4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\small\\pic4.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\profile\\small\\pic5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\profile\\small\\pic5.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\student-bg-Recovered.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\student-bg-Recovered.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\trans\\1.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\trans\\1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\trans\\2.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\trans\\2.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\trans\\3.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\trans\\3.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\trans\\4.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\trans\\4.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\images\\trans\\5.jpg",
+      "PackagePath": "staticwebassets\\dashboard\\images\\trans\\5.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\js\\custom.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\js\\dashboard\\dashboard-1.js",
+      "PackagePath": "staticwebassets\\dashboard\\js\\dashboard\\dashboard-1.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\js\\demo.js",
+      "PackagePath": "staticwebassets\\dashboard\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\js\\dlabnav-init.js",
+      "PackagePath": "staticwebassets\\dashboard\\js\\dlabnav-init.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\js\\plugins-init\\datatables.init.js",
+      "PackagePath": "staticwebassets\\dashboard\\js\\plugins-init\\datatables.init.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\js\\styleSwitcher.js",
+      "PackagePath": "staticwebassets\\dashboard\\js\\styleSwitcher.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\aos\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\aos\\css\\aos.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\apexchart\\apexchart.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\apexchart\\apexchart.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\bootstrap-datetimepicker\\js\\moment.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\bootstrap-datetimepicker\\js\\moment.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\bootstrap-select-country\\css\\bootstrap-select-country.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\bootstrap-select-country\\css\\bootstrap-select-country.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\bootstrap-select-country\\css\\images\\flags16.png",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\bootstrap-select-country\\css\\images\\flags16.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\bootstrap-select-country\\js\\bootstrap-select-country.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\bootstrap-select-country\\js\\bootstrap-select-country.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\chart.js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\chart.js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\css\\jquery.dataTables.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\css\\jquery.dataTables.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\images\\sort_asc.png",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\images\\sort_asc.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\images\\sort_asc_disabled.png",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\images\\sort_asc_disabled.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\images\\sort_both.png",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\images\\sort_both.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\images\\sort_desc.png",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\images\\sort_desc.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\images\\sort_desc_disabled.png",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\images\\sort_desc_disabled.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datatables\\js\\jquery.dataTables.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datatables\\js\\jquery.dataTables.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datepicker\\css\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datepicker\\css\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\datepicker\\js\\bootstrap-datepicker.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\datepicker\\js\\bootstrap-datepicker.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\global\\global.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\global\\global.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\jquery-nice-select\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\jquery-nice-select\\css\\nice-select.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\jquery-nice-select\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\metismenu\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\metismenu\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\peity\\jquery.peity.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\peity\\jquery.peity.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\swiper\\css\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\swiper\\css\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\swiper\\js\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\swiper\\js\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\wow-master\\css\\libs\\animate.css",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\wow-master\\css\\libs\\animate.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\dashboard\\vendor\\wow-master\\dist\\wow.min.js",
+      "PackagePath": "staticwebassets\\dashboard\\vendor\\wow-master\\dist\\wow.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\fpt.png",
+      "PackagePath": "staticwebassets\\fpt.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\js\\jquery-3.7.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.7.1.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\css\\style.css",
+      "PackagePath": "staticwebassets\\login\\css\\style.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\images\\background\\category.png",
+      "PackagePath": "staticwebassets\\login\\images\\background\\category.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\images\\background\\course.png",
+      "PackagePath": "staticwebassets\\login\\images\\background\\course.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\images\\background\\topic.png",
+      "PackagePath": "staticwebassets\\login\\images\\background\\topic.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\images\\fpt.png",
+      "PackagePath": "staticwebassets\\login\\images\\fpt.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\images\\like.png",
+      "PackagePath": "staticwebassets\\login\\images\\like.png"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\images\\student-bg-Recovered.jpg",
+      "PackagePath": "staticwebassets\\login\\images\\student-bg-Recovered.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\login\\js\\custom.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\js\\demo.js",
+      "PackagePath": "staticwebassets\\login\\js\\demo.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\js\\dlabnav-init.js",
+      "PackagePath": "staticwebassets\\login\\js\\dlabnav-init.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\js\\styleSwitcher.js",
+      "PackagePath": "staticwebassets\\login\\js\\styleSwitcher.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\aos\\css\\aos.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\aos\\css\\aos.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap-select\\dist\\css\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\bootstrap-select\\dist\\js\\bootstrap-select.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\global\\global.min.js",
+      "PackagePath": "staticwebassets\\login\\vendor\\global\\global.min.js"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\metismenu\\css\\metisMenu.min.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\metismenu\\css\\metisMenu.min.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\login\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\login\\vendor\\perfect-scrollbar\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\1548a90f-67a7-4034-a3d5-3bae95b5f875_demo.pdf",
+      "PackagePath": "staticwebassets\\uploads\\documents\\1548a90f-67a7-4034-a3d5-3bae95b5f875_demo.pdf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\4056b0db-d4b3-4459-9342-fc4b090f1026_demo.docx",
+      "PackagePath": "staticwebassets\\uploads\\documents\\4056b0db-d4b3-4459-9342-fc4b090f1026_demo.docx"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\4cdba110-428d-470a-b5a9-5cde98c67ae9_c.mp4",
+      "PackagePath": "staticwebassets\\uploads\\documents\\4cdba110-428d-470a-b5a9-5cde98c67ae9_c.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\6d41589f-da13-43d8-8382-3885fc00b153_c.mp4",
+      "PackagePath": "staticwebassets\\uploads\\documents\\6d41589f-da13-43d8-8382-3885fc00b153_c.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\80a37c8c-46c8-40a0-85cb-c267fa861419_rainy-day-short-30-sec-animation.mp4",
+      "PackagePath": "staticwebassets\\uploads\\documents\\80a37c8c-46c8-40a0-85cb-c267fa861419_rainy-day-short-30-sec-animation.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\8af8c072-8dae-4ac5-9ea3-12bf2b57ace5_demo.docx",
+      "PackagePath": "staticwebassets\\uploads\\documents\\8af8c072-8dae-4ac5-9ea3-12bf2b57ace5_demo.docx"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\934ff957-28bf-481f-a5ee-b5dbb9a89e4e_rainy-day-short-30-sec-animation.mp4",
+      "PackagePath": "staticwebassets\\uploads\\documents\\934ff957-28bf-481f-a5ee-b5dbb9a89e4e_rainy-day-short-30-sec-animation.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\a116a0dc-0558-40aa-8962-3dd13f7e42c2_rainy-day-short-30-sec-animation.mp4",
+      "PackagePath": "staticwebassets\\uploads\\documents\\a116a0dc-0558-40aa-8962-3dd13f7e42c2_rainy-day-short-30-sec-animation.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\a51ec6ff-3cee-4bff-93fe-4188418474d1_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3",
+      "PackagePath": "staticwebassets\\uploads\\documents\\a51ec6ff-3cee-4bff-93fe-4188418474d1_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\a8d3a167-0fae-471d-bec1-60dfb2d4647a_demo.docx",
+      "PackagePath": "staticwebassets\\uploads\\documents\\a8d3a167-0fae-471d-bec1-60dfb2d4647a_demo.docx"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\c3ad39a1-504f-43c1-9f08-28b32c727a10_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3",
+      "PackagePath": "staticwebassets\\uploads\\documents\\c3ad39a1-504f-43c1-9f08-28b32c727a10_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\db2becc3-5d79-416d-8ec4-cf2a2246ad06_demo.docx",
+      "PackagePath": "staticwebassets\\uploads\\documents\\db2becc3-5d79-416d-8ec4-cf2a2246ad06_demo.docx"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\documents\\fd7172b4-c5ed-4999-8d97-7a4049864480_demo.docx",
+      "PackagePath": "staticwebassets\\uploads\\documents\\fd7172b4-c5ed-4999-8d97-7a4049864480_demo.docx"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\052f65ca-b106-4840-9dfd-213ecbb0ad45_demo.pdf",
+      "PackagePath": "staticwebassets\\uploads\\images\\052f65ca-b106-4840-9dfd-213ecbb0ad45_demo.pdf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\0b4fd5ff-9142-47ee-a914-186df1bed720_oip-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\0b4fd5ff-9142-47ee-a914-186df1bed720_oip-1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\154d86d3-9f45-43cf-9e16-8cc8a9c038af_oip-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\154d86d3-9f45-43cf-9e16-8cc8a9c038af_oip-1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\1f1a8148-8447-4232-9526-d62b0c9f09e9_asm2adpresentation1stletiendatbh00219.pdf",
+      "PackagePath": "staticwebassets\\uploads\\images\\1f1a8148-8447-4232-9526-d62b0c9f09e9_asm2adpresentation1stletiendatbh00219.pdf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\284810ce-1aee-4268-821c-90e578afd864_oip.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\284810ce-1aee-4268-821c-90e578afd864_oip.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\2dccbba5-d126-499d-8498-cf9eb116ca61_oip-1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\2dccbba5-d126-499d-8498-cf9eb116ca61_oip-1.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\42a5c894-519a-495b-bfc1-ad5d303cde90_oip.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\42a5c894-519a-495b-bfc1-ad5d303cde90_oip.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\44fb5910-cae9-4ce6-8773-1f50f2d3103b_demo.pdf",
+      "PackagePath": "staticwebassets\\uploads\\images\\44fb5910-cae9-4ce6-8773-1f50f2d3103b_demo.pdf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\6d7a0573-f868-48b4-9dd8-107b7b539a87_demo.pdf",
+      "PackagePath": "staticwebassets\\uploads\\images\\6d7a0573-f868-48b4-9dd8-107b7b539a87_demo.pdf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\7eca67f2-f317-428c-8aab-884732d7be6c_demo.pdf",
+      "PackagePath": "staticwebassets\\uploads\\images\\7eca67f2-f317-428c-8aab-884732d7be6c_demo.pdf"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\91cd2fb8-aa91-4514-a29b-79224954d925_download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\91cd2fb8-aa91-4514-a29b-79224954d925_download.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\aba93579-8211-44ef-a574-0a5c0deeac91_oip.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\aba93579-8211-44ef-a574-0a5c0deeac91_oip.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\b8107ade-9698-4613-99c8-f04a63521370_oip.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\b8107ade-9698-4613-99c8-f04a63521370_oip.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\b9b89854-d3bf-4fe8-a830-7d3f80210f05_java.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\b9b89854-d3bf-4fe8-a830-7d3f80210f05_java.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\bc1b5273-8244-4b11-95a0-7df560151b83_download.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\bc1b5273-8244-4b11-95a0-7df560151b83_download.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\df912b3c-161e-4a45-9ade-b7c1feec1724_java.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\df912b3c-161e-4a45-9ade-b7c1feec1724_java.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\images\\ffe3dd5a-14cd-4afc-82d9-2822a40b1860_oip.jpg",
+      "PackagePath": "staticwebassets\\uploads\\images\\ffe3dd5a-14cd-4afc-82d9-2822a40b1860_oip.jpg"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\videos\\1d133a93-25d4-4df7-a9fb-7f8abf7135d1_c.mp4",
+      "PackagePath": "staticwebassets\\uploads\\videos\\1d133a93-25d4-4df7-a9fb-7f8abf7135d1_c.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\videos\\37eae0cf-8cf6-4654-bf1a-62d3371ab540_c.mp4",
+      "PackagePath": "staticwebassets\\uploads\\videos\\37eae0cf-8cf6-4654-bf1a-62d3371ab540_c.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\videos\\3b655342-ed7e-4b26-a833-5f2391465c5d_phim-hot-hnh-ngn-hi-hc.mp4",
+      "PackagePath": "staticwebassets\\uploads\\videos\\3b655342-ed7e-4b26-a833-5f2391465c5d_phim-hot-hnh-ngn-hi-hc.mp4"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\videos\\4ab19d9f-d70f-426d-96ea-47ab93c392a9_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3",
+      "PackagePath": "staticwebassets\\uploads\\videos\\4ab19d9f-d70f-426d-96ea-47ab93c392a9_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3"
+    },
+    {
+      "Id": "D:\\IT.MrTrieu\\ApplicationDevelopment\\Code\\TrainingFPTCo\\TrainingFPTCo\\TrainingFPTCo\\wwwroot\\uploads\\videos\\d0c3d38d-4799-40c7-a8fc-334bee5229a3_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3",
+      "PackagePath": "staticwebassets\\uploads\\videos\\d0c3d38d-4799-40c7-a8fc-334bee5229a3_hc-ting-anh-qua-nhng-on-video-ngn---nhng-cu-n.mp3"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TrainingFPTCo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TrainingFPTCo.props",
+      "PackagePath": "build\\TrainingFPTCo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TrainingFPTCo.props",
+      "PackagePath": "buildMultiTargeting\\TrainingFPTCo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TrainingFPTCo.props",
+      "PackagePath": "buildTransitive\\TrainingFPTCo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
